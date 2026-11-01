@@ -32,19 +32,12 @@
     try { return raw ? JSON.parse(raw) : {}; } catch (e) { return {}; }
   }
 
-  /* ---- GA4 ---- */
-  var gaLoaded = false;
-  function loadGA() {
-    if (gaLoaded || !CFG.gaMeasurementId) return;
-    gaLoaded = true;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
-    window.gtag('config', CFG.gaMeasurementId, { anonymize_ip: true });
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(CFG.gaMeasurementId);
-    document.head.appendChild(s);
+  /* ---- GA4: the Google tag is in <head> on every page (see build.js) with Consent Mode.
+     Analytics storage is denied by default; we only ever update it from the banner choice. ---- */
+  function setGaConsent(granted) {
+    if (CFG.gaMeasurementId && typeof window.gtag === 'function') {
+      window.gtag('consent', 'update', { analytics_storage: granted ? 'granted' : 'denied' });
+    }
   }
   function analyticsAllowed() { var c = readConsent(); return !!(c && c.analytics); }
 
@@ -79,7 +72,7 @@
     function close(analytics) {
       writeConsent(analytics);
       banner.hidden = true;
-      if (analytics) loadGA();
+      setGaConsent(analytics);
       if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
     }
     accept.addEventListener('click', function () { close(true); });
@@ -94,7 +87,7 @@
     document.querySelectorAll('[data-cookie-manage]').forEach(function (b) {
       b.addEventListener('click', function () { manage.hidden = false; toggle.setAttribute('aria-expanded', 'true'); show(); });
     });
-    if (!readConsent()) { banner.hidden = false; } else if (analyticsAllowed()) { loadGA(); }
+    if (!readConsent()) { banner.hidden = false; }
   }
 
   /* ---- generic CTA / phone tracking ---- */

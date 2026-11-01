@@ -111,6 +111,21 @@ const clientCfg = {
 };
 fs.writeFileSync(path.join(DIST, 'assets/js/config.js'), 'window.GETLET_CONFIG=' + JSON.stringify(clientCfg) + ';\n');
 
+
+function gaTag() {
+  const id = cfg.analytics.gaMeasurementId;
+  if (!id) return '';
+  return `<!-- Google tag (gtag.js) with Consent Mode: analytics storage stays denied until the visitor accepts -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(id)}"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var gl_ok=false;try{var gl_c=JSON.parse(localStorage.getItem('getlet_consent_v1')||'null');gl_ok=!!(gl_c&&gl_c.analytics);}catch(e){}
+gtag('consent','default',{analytics_storage:gl_ok?'granted':'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+gtag('js',new Date());
+gtag('config','${esc(id)}',{anonymize_ip:true});
+</script>`;
+}
+
 function socialList() {
   const items = Object.entries(cfg.social).filter(([k, v]) => v && ICONS[k]).map(([k, v]) =>
     `<li><a href="${esc(v)}" rel="noopener" target="_blank" aria-label="${cfg.brand.name} on ${k[0].toUpperCase() + k.slice(1)}">${ICONS[k]}</a></li>`);
@@ -153,6 +168,7 @@ for (const file of walk(path.join(SRC, 'pages')).filter((f) => f.endsWith('.html
     navHow: navCls('how'), navAbout: navCls('about'), navContact: navCls('contact'),
     stickyCta: meta.noStickyCta ? '' : '<a class="sticky-cta" href="' + link('contact/?audience=landlord#landlord-form') + '" data-cta="sticky_valuation">Book a Rental Valuation</a>',
     schema: '',
+    gaTag: gaTag(),
     socialList: socialList(),
     hoursLine: cfg.contact.openingHours ? `<p class="stat-note">Opening hours: ${esc(cfg.contact.openingHours)}</p>` : '',
     contactList: contactList()

@@ -34,8 +34,8 @@
     "leadsEmail": "nightnest588@gmail.com"
   },
   "analytics": {
-    "gaMeasurementId": "",
-    "_help": "Leave empty to load no analytics. When set, GA4 loads only after the visitor accepts analytics cookies."
+    "gaMeasurementId": "G-N27KHRSEJE",
+    "_help": "Google tag is added to every page in <head> with Consent Mode: analytics storage is denied until the visitor accepts the cookie banner."
   },
   "structuredData": {
     "localBusinessEnabled": false

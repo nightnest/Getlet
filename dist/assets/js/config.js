@@ -1,1 +1,1 @@
-window.GETLET_CONFIG={"brand":"GETLET","forms":{"mode":"live","endpoint":"https://formspree.io/f/moeekozy"},"email":"agent@get-let.co.uk","leadsEmail":"nightnest588@gmail.com","gaMeasurementId":"","base":"/","phone":""};
+window.GETLET_CONFIG={"brand":"GETLET","forms":{"mode":"live","endpoint":"https://formspree.io/f/moeekozy"},"email":"agent@get-let.co.uk","leadsEmail":"nightnest588@gmail.com","gaMeasurementId":"G-N27KHRSEJE","base":"/","phone":""};
