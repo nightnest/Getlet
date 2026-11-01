@@ -96,6 +96,8 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 copyDir(path.join(ROOT, 'assets'), path.join(DIST, 'assets'));
 fs.rmSync(path.join(DIST, 'assets/images/manifest.json'), { force: true });
+// root-level files (e.g. Search Console verification) are copied to the dist root as-is
+if (fs.existsSync(path.join(ROOT, 'static'))) for (const f of fs.readdirSync(path.join(ROOT, 'static'))) fs.copyFileSync(path.join(ROOT, 'static', f), path.join(DIST, f));
 
 // client-side runtime config (only what the browser needs; no secrets)
 const clientCfg = {

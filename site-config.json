@@ -7,7 +7,7 @@
     "companyNumber": ""
   },
   "site": {
-    "siteUrl": "https://www.example.com",
+    "siteUrl": "https://getlet-theta.vercel.app",
     "basePath": "/",
     "serviceArea": "your local area",
     "jurisdiction": "England",

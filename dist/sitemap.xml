@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.example.com/</loc></url>
-  <url><loc>https://www.example.com/about/</loc></url>
-  <url><loc>https://www.example.com/complaints/</loc></url>
-  <url><loc>https://www.example.com/compliance/</loc></url>
-  <url><loc>https://www.example.com/contact/</loc></url>
-  <url><loc>https://www.example.com/faq/</loc></url>
-  <url><loc>https://www.example.com/fees/</loc></url>
-  <url><loc>https://www.example.com/how-it-works/</loc></url>
-  <url><loc>https://www.example.com/landlords/overseas/</loc></url>
-  <url><loc>https://www.example.com/landlords/portfolio/</loc></url>
-  <url><loc>https://www.example.com/landlords/switch-agent/</loc></url>
-  <url><loc>https://www.example.com/management-plans/</loc></url>
-  <url><loc>https://www.example.com/privacy/</loc></url>
-  <url><loc>https://www.example.com/rent-collection/</loc></url>
-  <url><loc>https://www.example.com/repairs/</loc></url>
-  <url><loc>https://www.example.com/services/</loc></url>
-  <url><loc>https://www.example.com/terms/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/about/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/complaints/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/compliance/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/contact/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/faq/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/fees/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/how-it-works/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/landlords/overseas/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/landlords/portfolio/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/landlords/switch-agent/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/management-plans/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/privacy/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/rent-collection/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/repairs/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/services/</loc></url>
+  <url><loc>https://getlet-theta.vercel.app/terms/</loc></url>
 </urlset>
