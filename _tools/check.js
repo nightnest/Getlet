@@ -7,7 +7,7 @@ const problems = [];
 const warn = (m) => problems.push(m);
 
 const htmlFiles = [];
-(function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); e.isDirectory() ? walk(p) : p.endsWith('.html') && htmlFiles.push(p); } })(DIST);
+(function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); e.isDirectory() ? walk(p) : p.endsWith('.html') && !/^google[0-9a-f]+.html$/.test(e.name) && htmlFiles.push(p); } })(DIST);
 
 const exists = (urlPath) => {
   let p = decodeURIComponent(urlPath.split('#')[0].split('?')[0]);
