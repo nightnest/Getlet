@@ -1,0 +1,12 @@
+{
+  "name": "getlet-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GETLET (fictional lettings business) – static website for a university project",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js",
+    "start": "node build.js && node serve.js",
+    "check": "node build.js && node _tools/check.js"
+  }
+}

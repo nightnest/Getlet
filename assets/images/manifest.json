@@ -1,0 +1,226 @@
+{
+ "hero-terrace": {
+  "alt": "Row of traditional terraced houses under a clear blue sky",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1284,
+  "photographer": "Bruce Barrow",
+  "source": "https://unsplash.com/photos/row-of-traditional-terraced-houses-under-a-clear-blue-sky-ugt84GWfaRs",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Home hero; landlord pages; Open Graph"
+ },
+ "victorian-street": {
+  "alt": "Victorian bay-fronted terraced houses on a residential street with cars parked outside",
+  "widths": [
+   480,
+   800,
+   1280
+  ],
+  "w": 1280,
+  "h": 853,
+  "photographer": "Samuel Regan-Asante",
+  "source": "https://unsplash.com/photos/terraced-houses-with-cars-parked-on-street-JJSWWpfkkkk",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Home intro; Services; Switch agent page"
+ },
+ "brick-terrace": {
+  "alt": "Red-brick terrace rooftops and chimneys against a blue sky",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1512,
+  "photographer": "Greg Willson",
+  "source": "https://unsplash.com/photos/brown-concrete-building-during-daytime-fFUBw5bF38s",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Portfolio landlords page"
+ },
+ "brick-house": {
+  "alt": "Brick cottage-style terraced house with white windows and ivy",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1280,
+  "photographer": "Kirsten Drew",
+  "source": "https://unsplash.com/photos/brown-concrete-2-storey-house-v-wkJZ4Dbac",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Management Plans; About"
+ },
+ "front-door": {
+  "alt": "Brick house front with a pale grey front door and clipped box hedges",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1280,
+  "photographer": "David Walker | Walker Design Co.",
+  "source": "https://unsplash.com/photos/a-red-brick-house-with-white-windows-and-a-black-door-Hw67HuisCtU",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Home tenant route; Contact"
+ },
+ "colourful-street": {
+  "alt": "Row of pastel-coloured terraced houses along a quiet road",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1280,
+  "photographer": "Jonathan Hunt",
+  "source": "https://unsplash.com/photos/a-row-of-brightly-colored-houses-lines-a-street-JC00kUduiW8",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Overseas landlords page; Tenant section"
+ },
+ "living-room-light": {
+  "alt": "Bright, uncluttered living room with a grey sofa and framed prints",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 2880,
+  "photographer": "Minh Pham",
+  "source": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-large-window-OtXADkUh3-I",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Rent collection page"
+ },
+ "living-room-wide": {
+  "alt": "Spacious modern living room with timber panelling and large windows",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1013,
+  "photographer": "Spacejoy",
+  "source": "https://unsplash.com/photos/white-and-brown-living-room-set-9M66C_w_ToM",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "How It Works; Fees"
+ },
+ "living-room-mirrors": {
+  "alt": "Calm living room with a cream sofa and two round mirrors",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1406,
+  "photographer": "Spacejoy",
+  "source": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-mirror-c0JoR_-2x3E",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Home rent feature; Services"
+ },
+ "plumber-sink": {
+  "alt": "Plumber fixing pipework under a sink",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1440,
+  "photographer": "Timur Shakerzianov",
+  "source": "https://unsplash.com/photos/a-man-working-on-a-pipe-in-a-wall-c314Gh8dXAo",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Repairs page; Home maintenance feature"
+ },
+ "plumber-bathroom": {
+  "alt": "Tradesperson carrying out a plumbing repair in a bathroom",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1280,
+  "photographer": "bhagya laxmi",
+  "source": "https://unsplash.com/photos/a-plumber-repairs-plumbing-in-a-bathroom-jaP5ClBdIyU",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Repairs page"
+ },
+ "electrician": {
+  "alt": "Electrician in a hard hat working on wiring",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1282,
+  "photographer": "Emmanuel Ikwuegbu",
+  "source": "https://unsplash.com/photos/electrician-installing-wiring-with-yellow-hardhat-_2AlIm-F6pw",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Repairs page; Compliance"
+ },
+ "electrical-panel": {
+  "alt": "Gloved hands working on an electrical consumer unit",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1440,
+  "photographer": "Toolmash Expo",
+  "source": "https://unsplash.com/photos/electrician-testing-electrical-panel-with-multimeter-PkHf7BUWbtk",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Compliance page"
+ },
+ "keys-hallway": {
+  "alt": "Hand holding house keys in a hallway",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1281,
+  "photographer": "Jakub Żerdzicki",
+  "source": "https://unsplash.com/photos/holding-house-keys-in-front-of-the-entrance-bqUZEAeWuok",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "Contact; Book a valuation"
+ },
+ "keys-stairs": {
+  "alt": "Hand holding keys with a house-shaped keyring by a staircase",
+  "widths": [
+   480,
+   800,
+   1280,
+   1920
+  ],
+  "w": 1920,
+  "h": 1281,
+  "photographer": "Jakub Żerdzicki",
+  "source": "https://unsplash.com/photos/hand-holding-keys-with-house-keychain-V7Q94jc04wQ",
+  "licence": "Unsplash Licence (free to use)",
+  "used": "About; Management Plans"
+ }
+}

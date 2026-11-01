@@ -1,0 +1,90 @@
+{
+  "_readme": "Single source for business details, placeholders and feature switches. Empty string = not yet known: the site shows '[To be confirmed]' or hides the item. Never invent values here.",
+  "brand": {
+    "name": "GETLET",
+    "tagline": "Property Management, Made Simple.",
+    "legalName": "",
+    "companyNumber": ""
+  },
+  "site": {
+    "siteUrl": "https://www.example.com",
+    "basePath": "/",
+    "serviceArea": "your local area",
+    "jurisdiction": "England",
+    "cleanUrls": true,
+    "lastReviewedCompliance": "1 November 2026"
+  },
+  "contact": {
+    "address": "",
+    "phone": "",
+    "email": "agent@get-let.co.uk",
+    "openingHours": "",
+    "complaintsContact": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "linkedin": ""
+  },
+  "forms": {
+    "mode": "live",
+    "endpoint": "https://formspree.io/f/moeekozy",
+    "_help": "mode 'email' opens the visitor's email app with the enquiry addressed to contact.email; delivery is never claimed. Set mode to 'live' AND a real endpoint (Formspree, Netlify Forms, custom API) to submit directly; success is shown only when the endpoint returns success.",
+    "leadsEmail": "nightnest588@gmail.com"
+  },
+  "analytics": {
+    "gaMeasurementId": "",
+    "_help": "Leave empty to load no analytics. When set, GA4 loads only after the visitor accepts analytics cookies."
+  },
+  "structuredData": {
+    "localBusinessEnabled": false
+  },
+  "team": [],
+  "placeholders": {
+    "fullyManaged": {
+      "spendingCeiling": "A spending ceiling is agreed in writing. Routine repairs up to that ceiling are ordered without asking you first.",
+      "reserve": "Any rent reserve held back for repairs is agreed in writing and shown on every statement.",
+      "majorWorksRule": "Major works above the ceiling are never ordered without your approval, except to make a property safe."
+    },
+    "limitedManagement": {
+      "approvalChannel": "We ask for your approval by your preferred contact route, and record your answer against the job.",
+      "landlordResponseWindow": "A response window for each type of job is agreed in your management agreement.",
+      "noReplyRule": "If we do not hear back, we chase you and escalate. Work other than making a property safe does not start without your permission."
+    },
+    "standard24h": {
+      "clockStarts": "From the moment GETLET receives and logs the report.",
+      "emergencyVsRoutine": "Emergencies are escalated immediately and the property is made safe first. Routine repairs are acknowledged, assessed and scheduled.",
+      "propertyAccess": "Time spent arranging access with the tenant is not counted as contractor delay.",
+      "partsDelays": "If a part has to be ordered, we agree a revised plan with you and keep the tenant informed.",
+      "landlordApprovalTime": "In Limited Management the time taken to give approval sits outside our control and extends the timeline.",
+      "escalation": "Jobs that miss the standard are escalated to a senior member of the team and the reason is recorded."
+    },
+    "payments": {
+      "paymentTiming": "Payment dates are set out in your management agreement and shown on every statement.",
+      "insufficientFunds": "If rent has not arrived, or does not cover an invoice, the shortfall is shown on your statement, carried forward and explained to you.",
+      "clientMoneyProtection": "The client money protection arrangements that apply to your agreement are set out in your written terms of business.",
+      "redressScheme": "Details of the redress scheme that applies to your agreement are set out in your written terms of business."
+    },
+    "fees": {
+      "managementCharge": "Itemised in your written quotation, including VAT. The quotation states whether it applies to rent due or rent collected.",
+      "tenantFind": "Itemised in your written quotation, including VAT.",
+      "setup": "Itemised in your written quotation, including VAT.",
+      "inspections": "Itemised in your written quotation, including VAT.",
+      "complianceArrangement": "Itemised in your written quotation, including VAT.",
+      "repairAdministration": "Itemised in your written quotation, including VAT.",
+      "renewalAndRentReview": "Itemised in your written quotation, including VAT.",
+      "majorWorks": "Itemised in your written quotation, including VAT.",
+      "exitTerms": "Itemised in your written quotation, including VAT.",
+      "vat": "Itemised in your written quotation, including VAT."
+    },
+    "operations": {
+      "referencing": "Referencing, deposit protection and tenancy agreements are covered in your written management agreement.",
+      "depositProtection": "Covered in your written management agreement.",
+      "tenancyAgreements": "Covered in your written management agreement.",
+      "certificationAgencies": "Gas and electrical certificates are arranged through specialist partner agencies.",
+      "contractorTrades": "Plumbing, heating, electrical and general repairs.",
+      "outOfHours": "Out-of-hours reports follow the emergency route on this page, and the arrangements for each plan are set out in your management agreement."
+    }
+  }
+}

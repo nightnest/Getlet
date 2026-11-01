@@ -1,0 +1,163 @@
+<!--meta
+{"slug":"management-plans","title":"Management Plans: Fully Managed or Limited Management | GETLET","description":"Compare GETLET's Fully Managed lettings and Limited Management plans. Choose whether GETLET orders repairs directly or asks for your approval first.","nav":"plans","keyword":"fully managed lettings [town]; limited property management [town]","ogImage":"brick-house"}
+-->
+<section class="page-hero has-img">
+  {{img:brick-house|100vw|eager}}
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{link:}}">Home</a> / <span aria-current="page">Management Plans</span></nav>
+    <h1>Fully Managed or Limited Management</h1>
+    <p class="lead">Two ways to let your property. The difference is who makes the repair decisions, so choose the level of involvement that suits you.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="plans-h">
+  <div class="container">
+    <h2 id="plans-h" class="visually-hidden">The two plans</h2>
+    <div class="grid grid-2">
+      <article class="plan plan-featured reveal" id="fully-managed">
+        <span class="plan-tag">Fully Managed</span>
+        <h3>Hand over full control</h3>
+        <div class="involvement"><span class="dial" aria-hidden="true"><i class="on"></i><i></i><i></i></span> Lowest landlord involvement</div>
+        <ul class="check-list">
+          <li>You hand over full control of day-to-day management</li>
+          <li>GETLET orders repairs directly without prior approval, within written delegated authority</li>
+          <li>Gas and electrical certification arranged through GETLET's agencies</li>
+          <li>Tenant issues handled end to end</li>
+          <li>Costs deducted from rent via PayProp</li>
+        </ul>
+        <p class="plan-price">Contact us for pricing</p>
+        <a class="btn btn-gold" href="{{link:contact/?audience=landlord&plan=fully-managed#landlord-form}}" data-cta="plan_fm_quote">Request a written quotation</a>
+      </article>
+      <article class="plan reveal" id="limited-management" data-delay="120">
+        <span class="plan-tag">Limited Management</span>
+        <h3>Keep the decision rights</h3>
+        <div class="involvement"><span class="dial" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span> Higher landlord involvement</div>
+        <ul class="check-list">
+          <li>You keep the decision rights on repairs and spending</li>
+          <li>GETLET asks first; work starts only after you give permission</li>
+          <li>Certification is arranged once you approve</li>
+          <li>GETLET reports tenant issues, gets your approval, then dispatches</li>
+          <li>Approved costs deducted via PayProp</li>
+        </ul>
+        <p class="plan-price">Contact us for pricing</p>
+        <a class="btn btn-navy" href="{{link:contact/?audience=landlord&plan=limited#landlord-form}}" data-cta="plan_lm_quote">Request a written quotation</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white" aria-labelledby="compare-h">
+  <div class="container" data-compare>
+    <div class="section-head reveal">
+      <p class="eyebrow">Side by side</p>
+      <h2 id="compare-h">Compare the plans</h2>
+      <p class="lead">Use the buttons to highlight a plan. Rows also highlight as you hover or focus.</p>
+    </div>
+    <div class="tabs" role="group" aria-label="Highlight a plan in the table">
+      <button type="button" class="tab" data-view-btn="both" aria-pressed="true">Both plans</button>
+      <button type="button" class="tab" data-view-btn="fm" aria-pressed="false">Highlight Fully Managed</button>
+      <button type="button" class="tab" data-view-btn="lm" aria-pressed="false">Highlight Limited Management</button>
+    </div>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="Plan comparison table, scrolls sideways on small screens">
+      <table class="compare" data-view="both">
+        <caption class="visually-hidden">Comparison of Fully Managed and Limited Management</caption>
+        <thead><tr><th scope="col">Decision</th><th scope="col" data-col="fm">Fully Managed</th><th scope="col" data-col="lm">Limited Management</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Who decides on routine repairs?</th><td data-col="fm">GETLET orders directly within written delegated authority</td><td data-col="lm">You decide. GETLET asks first and work starts after permission</td></tr>
+          <tr><th scope="row">Certificates (gas, electrical)</th><td data-col="fm">Arranged through GETLET's partner agencies</td><td data-col="lm">Arranged once you approve</td></tr>
+          <tr><th scope="row">Tenant issues</th><td data-col="fm">Handled end to end</td><td data-col="lm">Reported to you, approved, then dispatched</td></tr>
+          <tr><th scope="row">How costs are paid</th><td data-col="fm">Invoice recorded in PayProp and deducted from rent</td><td data-col="lm">Approved invoice recorded in PayProp and deducted from rent</td></tr>
+          <tr><th scope="row">Effect on repair timing</th><td data-col="fm">Capacity, access and parts still apply</td><td data-col="lm">Your approval is an extra step, so the time you take to reply affects the timing</td></tr>
+          <tr><th scope="row">Best suited to</th><td data-col="fm">Landlords who want to delegate</td><td data-col="lm">Landlords who want to approve each job</td></tr>
+          <tr><th scope="row">Price</th><td data-col="fm">Contact us for pricing</td><td data-col="lm">Contact us for pricing</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="boundary-h">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">The detail that matters</p>
+      <h2 id="boundary-h">"No prior approval" never means unlimited spending</h2>
+      <p class="lead">Each plan has limits that are agreed in writing. These are set out in your management agreement.</p>
+    </div>
+    <div class="grid grid-2">
+      <div class="card reveal">
+        <h3>Fully Managed: agreed limits</h3>
+        <dl class="defs">
+          <dt>Spending ceiling</dt><dd>{{cfg:placeholders.fullyManaged.spendingCeiling}}</dd>
+          <dt>Reserve</dt><dd>{{cfg:placeholders.fullyManaged.reserve}}</dd>
+          <dt>Major works rule</dt><dd>{{cfg:placeholders.fullyManaged.majorWorksRule}}</dd>
+        </dl>
+      </div>
+      <div class="card reveal" data-delay="100">
+        <h3>Limited Management: approval process</h3>
+        <dl class="defs">
+          <dt>Approval channel</dt><dd>{{cfg:placeholders.limitedManagement.approvalChannel}}</dd>
+          <dt>Landlord response window</dt><dd>{{cfg:placeholders.limitedManagement.landlordResponseWindow}}</dd>
+          <dt>If there is no reply</dt><dd>{{cfg:placeholders.limitedManagement.noReplyRule}}</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="notice reveal mt-m">
+      <p><strong>Be aware:</strong> in Limited Management, your approval is an extra dependency for repair timing. The quicker you reply, the quicker the work can start. We explain this openly so there are no surprises.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white" aria-labelledby="scenario-h" id="scenario">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">How we handle one repair</p>
+      <h2 id="scenario-h">Example: a boiler fault, step by step</h2>
+      <p class="lead">An illustrative scenario showing how the same problem moves through each plan.</p>
+    </div>
+    <div class="scenario">
+      <div class="scenario-col fm reveal">
+        <h3>Fully Managed</h3>
+        <ol class="steps">
+          <li><strong>Tenant reports</strong> the boiler has stopped working.</li>
+          <li><strong>GETLET checks</strong> the property is on Fully Managed.</li>
+          <li><strong>A heating contractor is booked directly</strong>, within the agreed authority.</li>
+          <li><strong>Contractor attends</strong> and repairs or advises.</li>
+          <li><strong>The invoice is entered in PayProp</strong> and deducted from the next rent.</li>
+          <li><strong>You see it on your statement</strong> with the invoice behind it.</li>
+        </ol>
+      </div>
+      <div class="scenario-col lm reveal" data-delay="120">
+        <h3>Limited Management</h3>
+        <ol class="steps">
+          <li><strong>Tenant reports</strong> the boiler has stopped working.</li>
+          <li><strong>GETLET checks</strong> the property is on Limited Management.</li>
+          <li><strong>GETLET contacts you</strong> with the issue and an estimate, and asks for permission.</li>
+          <li><strong>You approve.</strong> Work starts only after this step.</li>
+          <li><strong>Contractor attends</strong> and repairs or advises.</li>
+          <li><strong>The approved invoice is entered in PayProp</strong> and deducted from the next rent.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="stat-note mt-s">Real emergencies, such as a suspected gas leak, are never held up waiting for approval. See the <a href="{{link:repairs}}#emergency">emergency guidance</a>. Emergency handling for each plan is set out in your management agreement.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-p">
+  <div class="container-narrow">
+    <h2 id="faq-p">Questions about the plans</h2>
+    <div class="faq">
+      <div class="faq-item"><h3><button type="button" class="faq-q">Can I switch plan later?</button></h3><div class="faq-a"><div class="faq-a-inner"><p>Switching terms are set out in your written management agreement.</p></div></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q">Is limited property management slower?</button></h3><div class="faq-a"><div class="faq-a-inner"><p>It can be, because work only starts once you approve it. Quick replies keep things moving, and genuine emergencies are handled under a narrowly defined emergency exception.</p></div></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q">Which plan do overseas or busy landlords usually prefer?</button></h3><div class="faq-a"><div class="faq-a-inner"><p>Many busy or overseas landlords choose Fully Managed so that decisions are not held up by time differences, but the right choice depends on how involved you want to be. See our <a href="{{link:landlords/overseas}}">overseas landlords page</a>.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div><h2>Choose your involvement</h2><p>Tell us how hands-on you want to be and we will recommend a plan and give you a written quotation.</p></div>
+      <div class="actions"><a class="btn btn-gold" href="{{link:contact/?audience=landlord#landlord-form}}" data-cta="plans_quote">Request a written quotation</a></div>
+    </div>
+  </div>
+</section>

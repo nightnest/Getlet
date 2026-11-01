@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js")</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+{{canonical}}
+{{robots}}
+<meta name="theme-color" content="#121212">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{brand}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{ogUrl}}">
+<meta property="og:image" content="{{ogImage}}">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{ogImage}}">
+<link rel="icon" href="{{root}}assets/favicon.png" type="image/png">
+<link rel="preload" href="{{root}}assets/fonts/manrope-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}assets/css/main.css">
+{{schema}}
+</head>
+<body class="{{bodyClass}}" data-page="{{pageKey}}">
+<a class="skip-link" href="#main">Skip to main content</a>
+{{include:header}}
+<main id="main" tabindex="-1">
+{{content}}
+</main>
+{{include:footer}}
+{{stickyCta}}
+{{include:cookie-banner}}
+<script src="{{root}}assets/js/config.js"></script>
+<script src="{{root}}assets/js/tracking.js" defer></script>
+<script src="{{root}}assets/js/app.js" defer></script>
+<script src="{{root}}assets/js/forms.js" defer></script>
+</body>
+</html>

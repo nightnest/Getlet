@@ -1,0 +1,109 @@
+<!--meta
+{"slug":"repairs","title":"Property Maintenance & Repairs | Landlord Repair Approval | GETLET","description":"How GETLET handles plumbing, heating, electrical and general repairs, the repair approval process in each plan, and what our 24-hour standard means.","nav":"","keyword":"landlord repair approval process","ogImage":"plumber-sink"}
+-->
+<section class="page-hero has-img">
+  {{img:plumber-sink|100vw|eager}}
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{link:}}">Home</a> / <span aria-current="page">Repairs</span></nav>
+    <h1>Repairs and maintenance, handled</h1>
+    <p class="lead">Plumbing, heating, electrical and general repairs, dealt with by a pre-vetted contractor network, with every job recorded as an invoice.</p>
+  </div>
+</section>
+
+<section class="section-tight" id="emergency" aria-labelledby="em-h">
+  <div class="container">
+    <div class="notice notice-emergency" role="note">
+      <h2 id="em-h">In an emergency, do not wait for a form</h2>
+      <p><strong>Gas leak or smell of gas:</strong> leave the property, do not use switches or flames, and call the National Gas Emergency Service on <a href="tel:0800111999"><strong>0800 111 999</strong></a>.</p>
+      <p><strong>Fire, flooding that risks life, or any immediate danger:</strong> call <a href="tel:999"><strong>999</strong></a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="cover-h">
+  <div class="container">
+    <div class="section-head reveal"><p class="eyebrow">What we deal with</p><h2 id="cover-h">Four main areas of repair</h2></div>
+    <div class="grid grid-4">
+      <div class="card reveal"><div class="icon-box">{{icon:wrench}}</div><h3>Plumbing</h3><p>Leaks, blockages, taps, toilets and pipework.</p></div>
+      <div class="card reveal" data-delay="80"><div class="icon-box">{{icon:flame}}</div><h3>Heating</h3><p>Boiler faults, radiators and hot water problems.</p></div>
+      <div class="card reveal" data-delay="160"><div class="icon-box">{{icon:bolt}}</div><h3>Electrical</h3><p>Faulty sockets, lighting and electrical faults.</p></div>
+      <div class="card reveal" data-delay="240"><div class="icon-box">{{icon:home}}</div><h3>General repairs</h3><p>Doors, windows, locks and everyday upkeep.</p></div>
+    </div>
+    <p class="mt-m">Trades covered: {{cfg:placeholders.operations.contractorTrades}} Our contractors are pre-vetted, and we do not publish names here.</p>
+  </div>
+</section>
+
+<section class="section section-white" aria-labelledby="flow-h">
+  <div class="container split">
+    <div class="reveal">
+      <p class="eyebrow">The repair workflow</p>
+      <h2 id="flow-h">From report to rent statement</h2>
+      <ol class="steps">
+        <li><strong>Tenant reports</strong> the problem to GETLET.</li>
+        <li><strong>GETLET checks the management type.</strong> Fully Managed: we order directly. Limited Management: we ask you first.</li>
+        <li><strong>A contractor attends</strong> from the pre-vetted network.</li>
+        <li><strong>The invoice is added to PayProp</strong> against your property.</li>
+        <li><strong>The cost is deducted from the next rent</strong> and appears on your statement.</li>
+      </ol>
+      <p><a class="link-arrow" href="{{link:management-plans}}#scenario">See a boiler fault in both plans</a></p>
+    </div>
+    <figure class="photo photo-wide reveal" data-delay="100">{{img:plumber-bathroom|(min-width:900px) 46vw, 100vw}}</figure>
+  </div>
+</section>
+
+<section class="section" id="standard-24h" aria-labelledby="s24-h">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our service standard</p>
+      <h2 id="s24-h">What the 24-hour standard means</h2>
+      <p class="lead"><strong>This is GETLET's stated service standard.</strong> It is not an independently verified guarantee, and it does not mean every issue is fixed within 24 hours. The definitions below explain how it is applied.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal"><h3>When the clock starts</h3><p>{{cfg:placeholders.standard24h.clockStarts}}</p></div>
+      <div class="card reveal" data-delay="80"><h3>Emergency versus routine</h3><p>{{cfg:placeholders.standard24h.emergencyVsRoutine}}</p></div>
+      <div class="card reveal" data-delay="160"><h3>Access to the property</h3><p>{{cfg:placeholders.standard24h.propertyAccess}}</p></div>
+      <div class="card reveal"><h3>Parts delays</h3><p>{{cfg:placeholders.standard24h.partsDelays}}</p></div>
+      <div class="card reveal" data-delay="80"><h3>Landlord approval time (Limited Management)</h3><p>{{cfg:placeholders.standard24h.landlordApprovalTime}}</p></div>
+      <div class="card reveal" data-delay="160"><h3>Escalation</h3><p>{{cfg:placeholders.standard24h.escalation}}</p></div>
+    </div>
+    <div class="notice mt-m"><p><strong>In plain terms:</strong> capacity, access to the property and parts availability can all affect how long a repair takes. In Limited Management, the time you take to approve the work is an extra factor. Out-of-hours handling: {{cfg:placeholders.operations.outOfHours}}</p></div>
+  </div>
+</section>
+
+<section class="section section-white" id="report-repair" aria-labelledby="rr-h">
+  <div class="container contact-grid">
+    <div class="form-card reveal">
+      <h2 id="rr-h">Report a repair</h2>
+      <p>For tenants and landlords. If it is an emergency, use the emergency numbers above instead.</p>
+      <form data-form="repair" novalidate aria-labelledby="rr-h">
+        <div class="form-summary" role="alert"></div>
+        <div class="form-grid">
+          <div class="field" data-validate="required" id="rr-name"><label for="rr-name-i">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="rr-name-i" name="name" autocomplete="name" required aria-required="true"></div>
+          <div class="field" data-validate="required minlen5" id="rr-addr"><label for="rr-addr-i">Property address or postcode <span class="req" aria-hidden="true">*</span></label><input type="text" id="rr-addr-i" name="property" autocomplete="street-address" required aria-required="true"></div>
+          <div class="field" data-validate="required email" id="rr-email"><label for="rr-email-i">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="rr-email-i" name="email" autocomplete="email" required aria-required="true"></div>
+          <div class="field" data-validate="required phone" id="rr-phone"><label for="rr-phone-i">Phone number <span class="req" aria-hidden="true">*</span></label><input type="tel" id="rr-phone-i" name="phone" autocomplete="tel" required aria-required="true"></div>
+          <div class="field" data-validate="select" id="rr-type"><label for="rr-type-i">Type of issue <span class="req" aria-hidden="true">*</span></label>
+            <select id="rr-type-i" name="issue_type" required aria-required="true"><option value="">Choose…</option><option>Plumbing</option><option>Heating or hot water</option><option>Electrical</option><option>General repair</option><option>Other</option></select></div>
+          <div class="field" data-validate="radio" data-type="radio" id="rr-urgency"><fieldset><legend>Urgency <span class="req" aria-hidden="true">*</span></legend>
+            <div class="radio-row">
+              <label class="radio-pill"><input type="radio" name="urgency" value="routine"><span>Routine</span></label>
+              <label class="radio-pill"><input type="radio" name="urgency" value="urgent"><span>Urgent</span></label>
+              <label class="radio-pill"><input type="radio" name="urgency" value="emergency"><span>Emergency</span></label>
+            </div></fieldset></div>
+          <div class="field full" data-validate="required minlen5" id="rr-desc"><label for="rr-desc-i">Describe the problem <span class="req" aria-hidden="true">*</span></label><textarea id="rr-desc-i" name="description" required aria-required="true"></textarea></div>
+          <div class="field full" id="rr-access"><label for="rr-access-i">Access notes <span class="hint" id="rr-access-h">For example, key safe, best times, pets.</span></label><textarea id="rr-access-i" name="access_notes" aria-describedby="rr-access-h"></textarea></div>
+          <div class="field full" data-validate="consent" data-type="consent" id="rr-consent"><div class="check-row"><input type="checkbox" id="rr-consent-i" name="privacy_ack" required aria-required="true"><label for="rr-consent-i">I have read the <a href="{{link:privacy}}">privacy notice</a> and agree to my details being used to deal with this repair.</label></div></div>
+        </div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="source_page">
+        <button class="btn btn-navy mt-s" type="submit" data-label="Send repair report">Send repair report</button>
+        <div class="form-result" aria-live="polite"></div>
+      </form>
+    </div>
+    <aside class="reveal" data-delay="100">
+      <figure class="photo photo-wide">{{img:electrician|(min-width:960px) 32vw, 100vw}}</figure>
+      <div class="card mt-s"><h3>What happens next</h3>
+        <ol class="next-steps"><li>GETLET checks which management plan applies.</li><li>A contractor is booked, or we ask the landlord first in Limited Management.</li><li>You are kept updated until the job is done.</li></ol></div>
+    </aside>
+  </div>
+</section>

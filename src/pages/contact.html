@@ -1,0 +1,93 @@
+<!--meta
+{"slug":"contact","title":"Book a Rental Valuation | Contact GETLET","description":"Book a rental valuation or ask about letting and managing your property with GETLET. Landlord enquiry form, tenant viewing enquiries and contact details.","nav":"contact","keyword":"rental valuation [town]","ogImage":"keys-hallway","noStickyCta":true}
+-->
+<section class="page-hero has-img">
+  {{img:keys-hallway|100vw|eager}}
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{link:}}">Home</a> / <span aria-current="page">Contact</span></nav>
+    <h1>Book a rental valuation</h1>
+    <p class="lead">Tell us about your property and how involved you would like to be. We will come back to you using your preferred contact route.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="form-h">
+  <div class="container contact-grid">
+    <div>
+      <div class="form-switch" data-audience-switch role="group" aria-label="I am a">
+        <button type="button" class="tab" data-audience="landlord" aria-pressed="true">I am a landlord</button>
+        <button type="button" class="tab" data-audience="tenant" aria-pressed="false">I am looking to rent</button>
+      </div>
+
+      <div class="form-card" id="landlord-panel">
+        <span id="landlord-form" class="anchor"></span>
+        <h2 id="form-h">Landlord enquiry</h2>
+        <form data-form="landlord" novalidate aria-labelledby="form-h">
+          <div class="form-summary" role="alert"></div>
+          <div class="form-grid">
+            <div class="field" data-validate="required" id="l-name"><label for="l-name-i">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="l-name-i" name="name" autocomplete="name" required aria-required="true"></div>
+            <div class="field" data-validate="required email" id="l-email"><label for="l-email-i">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="l-email-i" name="email" autocomplete="email" required aria-required="true"></div>
+            <div class="field" data-validate="required phone" id="l-phone"><label for="l-phone-i">Phone number <span class="req" aria-hidden="true">*</span></label><input type="tel" id="l-phone-i" name="phone" autocomplete="tel" required aria-required="true"></div>
+            <div class="field" data-validate="radio" data-type="radio" id="l-route"><fieldset><legend>Preferred contact route <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="contact_route" value="email"><span>Email</span></label><label class="radio-pill"><input type="radio" name="contact_route" value="phone"><span>Phone</span></label></div></fieldset></div>
+            <div class="field" data-validate="required place" id="l-place"><label for="l-place-i">Property postcode or town <span class="req" aria-hidden="true">*</span></label><span class="hint" id="l-place-h">For example SW1A 1AA, SW1A, or a town name.</span><input type="text" id="l-place-i" name="property_location" autocomplete="postal-code" required aria-required="true" aria-describedby="l-place-h"></div>
+            <div class="field" data-validate="select" id="l-type"><label for="l-type-i">Property type <span class="req" aria-hidden="true">*</span></label>
+              <select id="l-type-i" name="property_type" required aria-required="true"><option value="">Choose…</option><option>Flat or apartment</option><option>Terraced house</option><option>Semi-detached house</option><option>Detached house</option><option>Bungalow</option><option>Several properties</option><option>Other</option></select></div>
+            <div class="field full" data-validate="radio" data-type="radio" id="l-mgmt"><fieldset><legend>Management interest <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="management_interest" value="fully-managed"><span>Fully Managed</span></label><label class="radio-pill"><input type="radio" name="management_interest" value="limited-management"><span>Limited Management</span></label><label class="radio-pill"><input type="radio" name="management_interest" value="not-sure"><span>Not sure yet</span></label></div></fieldset></div>
+            <div class="field full" id="l-msg"><label for="l-msg-i">Message (optional)</label><textarea id="l-msg-i" name="message"></textarea></div>
+            <div class="field full" data-validate="consent" data-type="consent" id="l-consent"><div class="check-row"><input type="checkbox" id="l-consent-i" name="privacy_ack" required aria-required="true"><label for="l-consent-i">I have read the <a href="{{link:privacy}}">privacy notice</a> and agree to GETLET using my details to respond to this enquiry. <span class="req" aria-hidden="true">*</span></label></div></div>
+            <div class="field full"><div class="check-row"><input type="checkbox" id="l-marketing" name="marketing_consent" value="yes"><label for="l-marketing">Optional: I would also like to receive occasional landlord updates by email. I can unsubscribe at any time. This is separate from my enquiry.</label></div></div>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="source_page">
+          <button class="btn btn-navy mt-s" type="submit" data-label="Send my enquiry">Send my enquiry</button>
+          <div class="form-result" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-card" id="tenant-panel" hidden>
+        <span id="tenant-form" class="anchor"></span>
+        <h2 id="tenant-h">Tenant enquiry</h2>
+        <p>Ask about a viewing or send a general question. To report a repair, use the <a href="{{link:repairs}}#report-repair">repair form</a>.</p>
+        <form data-form="tenant" novalidate aria-labelledby="tenant-h">
+          <div class="form-summary" role="alert"></div>
+          <div class="form-grid">
+            <div class="field" data-validate="required" id="t-name"><label for="t-name-i">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="t-name-i" name="name" autocomplete="name" required aria-required="true"></div>
+            <div class="field" data-validate="required email" id="t-email"><label for="t-email-i">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="t-email-i" name="email" autocomplete="email" required aria-required="true"></div>
+            <div class="field" data-validate="required phone" id="t-phone"><label for="t-phone-i">Phone number <span class="req" aria-hidden="true">*</span></label><input type="tel" id="t-phone-i" name="phone" autocomplete="tel" required aria-required="true"></div>
+            <div class="field" data-validate="radio" data-type="radio" id="t-kind"><fieldset><legend>Enquiry type <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="enquiry_type" value="viewing"><span>Viewing</span></label><label class="radio-pill"><input type="radio" name="enquiry_type" value="general"><span>General enquiry</span></label></div></fieldset></div>
+            <div class="field full" id="t-prop"><label for="t-prop-i">Property or area you are interested in (optional)</label><input type="text" id="t-prop-i" name="property_interest"></div>
+            <div class="field full" data-validate="required minlen5" id="t-msg"><label for="t-msg-i">Message <span class="req" aria-hidden="true">*</span></label><textarea id="t-msg-i" name="message" required aria-required="true"></textarea></div>
+            <div class="field full" data-validate="consent" data-type="consent" id="t-consent"><div class="check-row"><input type="checkbox" id="t-consent-i" name="privacy_ack" required aria-required="true"><label for="t-consent-i">I have read the <a href="{{link:privacy}}">privacy notice</a> and agree to my details being used to respond. <span class="req" aria-hidden="true">*</span></label></div></div>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="source_page">
+          <button class="btn btn-navy mt-s" type="submit" data-label="Send my enquiry">Send my enquiry</button>
+          <div class="form-result" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+
+    <aside aria-label="Contact details and next steps">
+      <div class="card reveal">
+        <h2 class="h3">What happens next</h2>
+        <ol class="next-steps">
+          <li>We read your enquiry and check whether your property is in our area ({{town}}).</li>
+          <li>We contact you by your preferred route to arrange a rental valuation.</li>
+          <li>We talk through Fully Managed and Limited Management and give you a written quotation.</li>
+          <li>There is no obligation to go ahead.</li>
+        </ol>
+      </div>
+      <div class="card mt-s reveal">
+        <h2 class="h3">Contact details</h2>
+        {{contactList}}
+        {{hoursLine}}
+      </div>
+      <div class="card mt-s reveal">
+        <h2 class="h3">Referral partners</h2>
+        <p>Are you a mortgage broker, accountant, solicitor or landlord association? We would be glad to hear from you about working together. We are not claiming any existing partnerships.</p>
+      </div>
+    </aside>
+  </div>
+</section>

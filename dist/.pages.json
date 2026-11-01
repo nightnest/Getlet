@@ -1,0 +1,146 @@
+[
+ {
+  "slug": "404",
+  "url": "https://www.example.com/",
+  "title": "Page not found | GETLET",
+  "keyword": "",
+  "is404": true,
+  "noindex": true
+ },
+ {
+  "slug": "about",
+  "url": "https://www.example.com/about/",
+  "title": "About GETLET | Property Management Built on Clarity",
+  "keyword": "GETLET property management",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "complaints",
+  "url": "https://www.example.com/complaints/",
+  "title": "Complaints and Redress | GETLET",
+  "keyword": "",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "compliance",
+  "url": "https://www.example.com/compliance/",
+  "title": "Landlord Compliance in England: Renters' Rights Act Checklist | GETLET",
+  "keyword": "Renters Rights Act landlord checklist",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "contact",
+  "url": "https://www.example.com/contact/",
+  "title": "Book a Rental Valuation | Contact GETLET",
+  "keyword": "rental valuation [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "faq",
+  "url": "https://www.example.com/faq/",
+  "title": "Landlord FAQ: Lettings, Repairs, Rent and Fees | GETLET",
+  "keyword": "landlord FAQ",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "fees",
+  "url": "https://www.example.com/fees/",
+  "title": "Letting Agent Fees: What to Compare Before You Sign | GETLET",
+  "keyword": "letting agent fees [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "how-it-works",
+  "url": "https://www.example.com/how-it-works/",
+  "title": "How Letting Works: Nine Steps from Property to Payout | GETLET",
+  "keyword": "how property management works",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "",
+  "url": "https://www.example.com/",
+  "title": "Letting Agents & Property Management | GETLET",
+  "keyword": "letting agents [town]; property management [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "landlords/overseas",
+  "url": "https://www.example.com/landlords/overseas/",
+  "title": "Overseas Landlord Property Management | GETLET",
+  "keyword": "overseas landlord property management [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "landlords/portfolio",
+  "url": "https://www.example.com/landlords/portfolio/",
+  "title": "Buy to Let Management for Portfolio Landlords | GETLET",
+  "keyword": "buy to let management [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "landlords/switch-agent",
+  "url": "https://www.example.com/landlords/switch-agent/",
+  "title": "Switch Your Letting Agent Without Losing Records | GETLET",
+  "keyword": "switch letting agent [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "management-plans",
+  "url": "https://www.example.com/management-plans/",
+  "title": "Management Plans: Fully Managed or Limited Management | GETLET",
+  "keyword": "fully managed lettings [town]; limited property management [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "privacy",
+  "url": "https://www.example.com/privacy/",
+  "title": "Privacy and Cookies | GETLET",
+  "keyword": "",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "rent-collection",
+  "url": "https://www.example.com/rent-collection/",
+  "title": "Rent Collection & How to Read a Landlord Rent Statement | GETLET",
+  "keyword": "how to read a landlord rent statement",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "repairs",
+  "url": "https://www.example.com/repairs/",
+  "title": "Property Maintenance & Repairs | Landlord Repair Approval | GETLET",
+  "keyword": "landlord repair approval process",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "services",
+  "url": "https://www.example.com/services/",
+  "title": "Landlord Services | Lettings & Property Management | GETLET",
+  "keyword": "landlord services [town]",
+  "is404": false,
+  "noindex": false
+ },
+ {
+  "slug": "terms",
+  "url": "https://www.example.com/terms/",
+  "title": "Website Terms and Service Terms | GETLET",
+  "keyword": "",
+  "is404": false,
+  "noindex": false
+ }
+]

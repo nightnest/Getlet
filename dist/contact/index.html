@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js")</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Rental Valuation | Contact GETLET</title>
+<meta name="description" content="Book a rental valuation or ask about letting and managing your property with GETLET. Landlord enquiry form, tenant viewing enquiries and contact details.">
+<link rel="canonical" href="https://www.example.com/contact/">
+
+<meta name="theme-color" content="#121212">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GETLET">
+<meta property="og:title" content="Book a Rental Valuation | Contact GETLET">
+<meta property="og:description" content="Book a rental valuation or ask about letting and managing your property with GETLET. Landlord enquiry form, tenant viewing enquiries and contact details.">
+<meta property="og:url" content="https://www.example.com/contact/">
+<meta property="og:image" content="https://www.example.com/assets/images/keys-hallway-1280.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Book a Rental Valuation | Contact GETLET">
+<meta name="twitter:description" content="Book a rental valuation or ask about letting and managing your property with GETLET. Landlord enquiry form, tenant viewing enquiries and contact details.">
+<meta name="twitter:image" content="https://www.example.com/assets/images/keys-hallway-1280.jpg">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="preload" href="/assets/fonts/manrope-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body class="" data-page="contact">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/" aria-label="GETLET home"><img class="logo-img" src="/assets/brand/getlet-logo-112.png" srcset="/assets/brand/getlet-logo-112.png 1x, /assets/brand/getlet-logo-224.png 2x" width="64" height="64" alt=""></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span><span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/management-plans/">Management Plans</a></li>
+        <li><a href="/how-it-works/">How It Works</a></li>
+        <li><a href="/about/">About Us</a></li>
+        <li><a href="/contact/" aria-current="page">Contact</a></li>
+        <li class="nav-cta-item"><a class="btn btn-gold btn-sm" href="/contact/?audience=landlord#landlord-form" data-cta="nav_list_property">List Your Property</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+<section class="page-hero has-img">
+  <picture><source type="image/webp" srcset="/assets/images/keys-hallway-480.webp 480w, /assets/images/keys-hallway-800.webp 800w, /assets/images/keys-hallway-1280.webp 1280w, /assets/images/keys-hallway-1920.webp 1920w" sizes="100vw"><img src="/assets/images/keys-hallway-1280.jpg" width="1920" height="1281" alt="Hand holding house keys in a hallway" fetchpriority="high"></picture>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Contact</span></nav>
+    <h1>Book a rental valuation</h1>
+    <p class="lead">Tell us about your property and how involved you would like to be. We will come back to you using your preferred contact route.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="form-h">
+  <div class="container contact-grid">
+    <div>
+      <div class="form-switch" data-audience-switch role="group" aria-label="I am a">
+        <button type="button" class="tab" data-audience="landlord" aria-pressed="true">I am a landlord</button>
+        <button type="button" class="tab" data-audience="tenant" aria-pressed="false">I am looking to rent</button>
+      </div>
+
+      <div class="form-card" id="landlord-panel">
+        <span id="landlord-form" class="anchor"></span>
+        <h2 id="form-h">Landlord enquiry</h2>
+        <form data-form="landlord" novalidate aria-labelledby="form-h">
+          <div class="form-summary" role="alert"></div>
+          <div class="form-grid">
+            <div class="field" data-validate="required" id="l-name"><label for="l-name-i">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="l-name-i" name="name" autocomplete="name" required aria-required="true"></div>
+            <div class="field" data-validate="required email" id="l-email"><label for="l-email-i">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="l-email-i" name="email" autocomplete="email" required aria-required="true"></div>
+            <div class="field" data-validate="required phone" id="l-phone"><label for="l-phone-i">Phone number <span class="req" aria-hidden="true">*</span></label><input type="tel" id="l-phone-i" name="phone" autocomplete="tel" required aria-required="true"></div>
+            <div class="field" data-validate="radio" data-type="radio" id="l-route"><fieldset><legend>Preferred contact route <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="contact_route" value="email"><span>Email</span></label><label class="radio-pill"><input type="radio" name="contact_route" value="phone"><span>Phone</span></label></div></fieldset></div>
+            <div class="field" data-validate="required place" id="l-place"><label for="l-place-i">Property postcode or town <span class="req" aria-hidden="true">*</span></label><span class="hint" id="l-place-h">For example SW1A 1AA, SW1A, or a town name.</span><input type="text" id="l-place-i" name="property_location" autocomplete="postal-code" required aria-required="true" aria-describedby="l-place-h"></div>
+            <div class="field" data-validate="select" id="l-type"><label for="l-type-i">Property type <span class="req" aria-hidden="true">*</span></label>
+              <select id="l-type-i" name="property_type" required aria-required="true"><option value="">Choose…</option><option>Flat or apartment</option><option>Terraced house</option><option>Semi-detached house</option><option>Detached house</option><option>Bungalow</option><option>Several properties</option><option>Other</option></select></div>
+            <div class="field full" data-validate="radio" data-type="radio" id="l-mgmt"><fieldset><legend>Management interest <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="management_interest" value="fully-managed"><span>Fully Managed</span></label><label class="radio-pill"><input type="radio" name="management_interest" value="limited-management"><span>Limited Management</span></label><label class="radio-pill"><input type="radio" name="management_interest" value="not-sure"><span>Not sure yet</span></label></div></fieldset></div>
+            <div class="field full" id="l-msg"><label for="l-msg-i">Message (optional)</label><textarea id="l-msg-i" name="message"></textarea></div>
+            <div class="field full" data-validate="consent" data-type="consent" id="l-consent"><div class="check-row"><input type="checkbox" id="l-consent-i" name="privacy_ack" required aria-required="true"><label for="l-consent-i">I have read the <a href="/privacy/">privacy notice</a> and agree to GETLET using my details to respond to this enquiry. <span class="req" aria-hidden="true">*</span></label></div></div>
+            <div class="field full"><div class="check-row"><input type="checkbox" id="l-marketing" name="marketing_consent" value="yes"><label for="l-marketing">Optional: I would also like to receive occasional landlord updates by email. I can unsubscribe at any time. This is separate from my enquiry.</label></div></div>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="source_page">
+          <button class="btn btn-navy mt-s" type="submit" data-label="Send my enquiry">Send my enquiry</button>
+          <div class="form-result" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="form-card" id="tenant-panel" hidden>
+        <span id="tenant-form" class="anchor"></span>
+        <h2 id="tenant-h">Tenant enquiry</h2>
+        <p>Ask about a viewing or send a general question. To report a repair, use the <a href="/repairs/#report-repair">repair form</a>.</p>
+        <form data-form="tenant" novalidate aria-labelledby="tenant-h">
+          <div class="form-summary" role="alert"></div>
+          <div class="form-grid">
+            <div class="field" data-validate="required" id="t-name"><label for="t-name-i">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="t-name-i" name="name" autocomplete="name" required aria-required="true"></div>
+            <div class="field" data-validate="required email" id="t-email"><label for="t-email-i">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="t-email-i" name="email" autocomplete="email" required aria-required="true"></div>
+            <div class="field" data-validate="required phone" id="t-phone"><label for="t-phone-i">Phone number <span class="req" aria-hidden="true">*</span></label><input type="tel" id="t-phone-i" name="phone" autocomplete="tel" required aria-required="true"></div>
+            <div class="field" data-validate="radio" data-type="radio" id="t-kind"><fieldset><legend>Enquiry type <span class="req" aria-hidden="true">*</span></legend>
+              <div class="radio-row"><label class="radio-pill"><input type="radio" name="enquiry_type" value="viewing"><span>Viewing</span></label><label class="radio-pill"><input type="radio" name="enquiry_type" value="general"><span>General enquiry</span></label></div></fieldset></div>
+            <div class="field full" id="t-prop"><label for="t-prop-i">Property or area you are interested in (optional)</label><input type="text" id="t-prop-i" name="property_interest"></div>
+            <div class="field full" data-validate="required minlen5" id="t-msg"><label for="t-msg-i">Message <span class="req" aria-hidden="true">*</span></label><textarea id="t-msg-i" name="message" required aria-required="true"></textarea></div>
+            <div class="field full" data-validate="consent" data-type="consent" id="t-consent"><div class="check-row"><input type="checkbox" id="t-consent-i" name="privacy_ack" required aria-required="true"><label for="t-consent-i">I have read the <a href="/privacy/">privacy notice</a> and agree to my details being used to respond. <span class="req" aria-hidden="true">*</span></label></div></div>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="source_page">
+          <button class="btn btn-navy mt-s" type="submit" data-label="Send my enquiry">Send my enquiry</button>
+          <div class="form-result" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+
+    <aside aria-label="Contact details and next steps">
+      <div class="card reveal">
+        <h2 class="h3">What happens next</h2>
+        <ol class="next-steps">
+          <li>We read your enquiry and check whether your property is in our area (your local area).</li>
+          <li>We contact you by your preferred route to arrange a rental valuation.</li>
+          <li>We talk through Fully Managed and Limited Management and give you a written quotation.</li>
+          <li>There is no obligation to go ahead.</li>
+        </ol>
+      </div>
+      <div class="card mt-s reveal">
+        <h2 class="h3">Contact details</h2>
+        <ul class="contact-list"><li>Email: <a href="mailto:agent@get-let.co.uk">agent@get-let.co.uk</a></li></ul>
+        
+      </div>
+      <div class="card mt-s reveal">
+        <h2 class="h3">Referral partners</h2>
+        <p>Are you a mortgage broker, accountant, solicitor or landlord association? We would be glad to hear from you about working together. We are not claiming any existing partnerships.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo-light" href="/" aria-label="GETLET home"><img class="logo-img" src="/assets/brand/getlet-logo-112.png" srcset="/assets/brand/getlet-logo-112.png 1x, /assets/brand/getlet-logo-224.png 2x" width="72" height="72" alt=""></a>
+        <p>Property management for landlords who want a clear choice of involvement, transparent rent accounting and a repairs process they can follow.</p>
+        
+      </div>
+      <nav aria-label="Landlords">
+        <h2 class="footer-h">For landlords</h2>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/management-plans/">Management Plans</a></li>
+          <li><a href="/fees/">Fees</a></li>
+          <li><a href="/rent-collection/">Rent &amp; Statements</a></li>
+          <li><a href="/compliance/">Compliance (England)</a></li>
+          <li><a href="/landlords/overseas/">Overseas landlords</a></li>
+          <li><a href="/landlords/portfolio/">Portfolio landlords</a></li>
+          <li><a href="/landlords/switch-agent/">Switch your agent</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Tenants and company">
+        <h2 class="footer-h">Tenants &amp; company</h2>
+        <ul>
+          <li><a href="/contact/?audience=tenant#tenant-form">Looking to rent?</a></li>
+          <li><a href="/repairs/">Repairs</a></li>
+          <li><a href="/how-it-works/">How It Works</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/complaints/">Complaints &amp; redress</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Get in touch</h2>
+        <ul class="contact-list"><li>Email: <a href="mailto:agent@get-let.co.uk">agent@get-let.co.uk</a></li></ul>
+        <a class="btn btn-gold btn-sm" href="/contact/?audience=landlord#landlord-form" data-cta="footer_valuation">Book a Rental Valuation</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; GETLET. Compliance guidance relates to England only and is general information, not legal advice.</p>
+      <ul>
+        <li><a href="/privacy/">Privacy &amp; Cookies</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/complaints/">Complaints &amp; Redress</a></li>
+        <li><button type="button" class="link-button" data-cookie-manage>Cookie settings</button></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cookie-title" hidden>
+  <div class="cookie-inner">
+    <h2 id="cookie-title">Cookies on this site</h2>
+    <p>We use essential storage to remember your cookie choice. With your permission we would also use analytics cookies to understand how the site is used. Nothing is set until you choose. <a href="/privacy/">Read the privacy and cookie notice</a>.</p>
+    <div class="cookie-manage" id="cookie-manage" hidden>
+      <div class="check-row"><input type="checkbox" id="ck-essential" checked disabled><label for="ck-essential">Essential: remembers this choice (always on)</label></div>
+      <div class="check-row"><input type="checkbox" id="ck-analytics"><label for="ck-analytics">Analytics: helps us improve the site (off unless you tick it)</label></div>
+      <button type="button" class="btn btn-navy btn-sm" id="cookie-save">Save my choices</button>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-navy" id="cookie-accept">Accept analytics</button>
+      <button type="button" class="btn btn-navy" id="cookie-reject">Reject analytics</button>
+      <button type="button" class="btn btn-outline" id="cookie-toggle" aria-expanded="false" aria-controls="cookie-manage">Manage choices</button>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/config.js"></script>
+<script src="/assets/js/tracking.js" defer></script>
+<script src="/assets/js/app.js" defer></script>
+<script src="/assets/js/forms.js" defer></script>
+</body>
+</html>
